@@ -7,7 +7,6 @@ WORKDIR /app
 
 # copy package files and install production deps only to the /app directory inside container's filesystem
 COPY package*.json ./
-RUN npm ci --production
 
 # copy app files, Docker builds images in layers. Each COPY (the previous copy -> package*.json), RUN, etc. creates a new layer that gets cached if nothing changes.
 # If you copied everything (COPY . .) before installing,
