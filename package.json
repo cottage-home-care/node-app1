@@ -1,0 +1,11 @@
+{
+  "name": "node_app1",
+  "version": "1.0.0",
+  "description": "A simple Node.js app with /get-users and /get-info endpoints.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "author": "rakib@cottagehomecare.com",
+  "license": "MIT"
+}
